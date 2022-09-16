@@ -33,7 +33,7 @@
 <br>
 <h4>
 * Dê um <strong> " git clone <em>https://github.com/rinvyssondev/devnology "</em> </strong>; <br>
-* Abra o MySQL e crie um Schema chamada  <strong>devnology </strong> ; <br>
+* Abra o MySQL e crie um Schema chamado  <strong>"devnology" (sem aspas) </strong> ; <br>
 * Execute o comando  <strong>npm install</strong> ; <br>
 * Abra o projeto e vá até o arquivo <strong>database/connection.js</strong> e edite as informações das váriaveis <strong>usuário</strong> e <strong>senha</strong> e coloque de acordo com o que você criou no processo de instalação do MySQL; <br>
 * Agora vá até o arquivo <strong>articles/Article.js</strong> e descomente o código <strong>// Article.sync({ force: true });</strong> apagando as duas barras iniciais; <br>
