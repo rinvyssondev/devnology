@@ -32,7 +32,7 @@
 <h3> Passos: </h3>
 <br>
 <h4>
-* Dê um <strong> git clone <em>https://github.com/rinvyssondev/devnology</em> </strong>; <br>
+* Dê um <strong> " git clone <em>https://github.com/rinvyssondev/devnology "</em> </strong>; <br>
 * Abra o MySQL e crie um Schema chamada  <strong>devnology </strong> ; <br>
 * Execute o comando  <strong>npm install</strong> ; <br>
 * Abra o projeto e vá até o arquivo <strong>database/connection.js</strong> e edite as informações das váriaveis <strong>usuário</strong> e <strong>senha</strong> e coloque de acordo com o que você criou no processo de instalação do MySQL; <br>
