@@ -1,0 +1,30 @@
+<%- include ('../partials/header') %> <%- include ('../partials/navbar') %>
+<div class="container">
+  <hr />
+  <div class="card">
+    <div class="card-header">
+      <h2>Adicionando um link</h2>
+    </div>
+    <div class="card-body">
+      <form method="POST" action="/articles/save">
+        <input
+          class="form-control"
+          type="text"
+          name="link"
+          placeholder="Adicione o link do artigo"
+        />
+        <br />
+        <input
+          class="form-control"
+          type="text"
+          name="nome"
+          placeholder="Adicione o nome do artigo"
+        />
+        <br />
+        <button class="btn btn-success">Adicionar</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<%- include ('../partials/footer') %>
