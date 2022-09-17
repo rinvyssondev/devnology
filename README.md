@@ -16,7 +16,8 @@
 * NodeJS - v16.17.0 <br>
 * MySQL Server - v8.0.30 <br>
 * MySQL Workbench CE - v8.0 CE <br>
-* Visual Studio Code
+* Visual Studio Code <br>
+* Bootstrap - v5.2.1
 
 <h4>
 <br>
