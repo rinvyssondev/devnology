@@ -1,11 +1,20 @@
 const express = require("express");
 const router = express.Router();
 const Article = require("./Article");
+const request = require("request");
+const cheerio = require("cheerio");
+const axios = require("axios").default;
+const fs = require("fs");
+const Crawler = require("../crawler/Crawler");
 
 // Rota link de artigos
 router.get("/articles", (req, res) => {
-  Article.findAll().then((articles) => {
-    res.render("articles/index.ejs", { articles: articles });
+  Article.findAll({
+    include: [{ model: Crawler }],
+  }).then((articles) => {
+    res.render("articles/index.ejs", {
+      articles: articles,
+    });
   });
 });
 

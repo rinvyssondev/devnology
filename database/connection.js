@@ -1,7 +1,7 @@
 const Sequelize = require("sequelize");
 const NomeDaTabela = "devnology";
-const usuario = "seu usuário do mysql";
-const senha = "senha do mysql";
+const usuario = "root";
+const senha = "2305";
 
 // Conectando com o banco
 const connection = new Sequelize(NomeDaTabela, usuario, senha, {
