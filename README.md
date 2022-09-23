@@ -37,7 +37,6 @@
 * Abra o MySQL e crie um Schema chamado  <strong>"devnology" (sem aspas) </strong> ; <br>
 * Execute o comando  <strong>npm install</strong> ; <br>
 * Abra o projeto e vá até o arquivo <strong>database/connection.js</strong> e edite as informações das váriaveis <strong>usuário</strong> e <strong>senha</strong> e coloque de acordo com o que você criou no processo de instalação do MySQL; <br>
-* Agora vá até o arquivo <strong>articles/Article.js</strong> e descomente o código <strong>// Article.sync({ force: true });</strong> apagando as duas barras iniciais; <br>
-* Dê um <strong>nodemon index.js</strong> e logo após ele criar a tabela volte a comentar o código <strong>// Article.sync({ force: true });</strong>, pois toda vez que salvar/executar o projeto ele tentará criar uma nova tabela por cima da existente. <br>
+* Dê um <strong> nodemon index.js .</strong>
 * Logo após todos os procedimentos acima, o projeto estará no ar em <em>http://localhost:8080/articles</em> .
 </h4>

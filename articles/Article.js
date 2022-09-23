@@ -16,5 +16,5 @@ const Article = connection.define("articles", {
   },
 });
 
-// Article.sync({ force: true });
+Article.sync({ force: false });
 module.exports = Article;

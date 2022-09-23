@@ -4,7 +4,7 @@ const bodyParser = require("body-parser");
 const connection = require("./database/connection");
 const Article = require("./articles/Article");
 const ArticlesController = require("./articles/ArticlesController");
-// const crawler = require("./crawler");
+const crawler = require("./crawler");
 
 // View engine - configure
 app.set("view engine", "ejs");

@@ -1,8 +1,6 @@
 const express = require("express");
 const router = express.Router();
 const Article = require("./Article");
-const request = require("request");
-const cheerio = require("cheerio");
 const fs = require("fs");
 
 // Rota link de artigos
