@@ -3,15 +3,11 @@ const router = express.Router();
 const Article = require("./Article");
 const request = require("request");
 const cheerio = require("cheerio");
-const axios = require("axios").default;
 const fs = require("fs");
-const Crawler = require("../crawler/Crawler");
 
 // Rota link de artigos
 router.get("/articles", (req, res) => {
-  Article.findAll({
-    include: [{ model: Crawler }],
-  }).then((articles) => {
+  Article.findAll().then((articles) => {
     res.render("articles/index.ejs", {
       articles: articles,
     });
@@ -27,6 +23,7 @@ router.get("/articles/new", (req, res) => {
 router.post("/articles/save", (req, res) => {
   var link = req.body.link;
   var nome = req.body.nome;
+
   Article.create({
     link: link,
     nome: nome,
