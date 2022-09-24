@@ -37,6 +37,6 @@
 * Abra o MySQL e crie um Schema chamado  <strong>"devnology" (sem aspas) </strong> ; <br>
 * Execute o comando  <strong>npm install</strong> ; <br>
 * Abra o projeto e vá até o arquivo <strong>database/connection.js</strong> e edite as informações das váriaveis <strong>usuário</strong> e <strong>senha</strong> e coloque de acordo com o que você criou no processo de instalação do MySQL; <br>
-* Dê um <strong> nodemon index.js .</strong>
+* Dê um <strong> nodemon index.js .</strong> <br>
 * Logo após todos os procedimentos acima, o projeto estará no ar em <em>http://localhost:8080/articles</em> .
 </h4>
