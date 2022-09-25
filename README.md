@@ -46,7 +46,7 @@
 <h4>
 * Crie uma instância EC2 e entre na máquina; <br>
 * Dentro da máquina faça a instalação do <strong>Nodejs</strong> e do <strong>MySQL</strong> ; <br>
-* Faça o login no MySQL e crie um Schema (CREATE DATABASES devnology;) chamado  <strong>"devnology" (sem aspas) </strong> ; <br>
+* Faça o login no MySQL e crie um Schema (CREATE DATABASE devnology;) chamado  <strong>"devnology" (sem aspas) </strong> ; <br>
 * Dê um <strong> " git clone <em>https://github.com/rinvyssondev/devnology "</em> </strong>; <br>
 * Entre na pasta <em>devnology</em> e dê um <strong>npm install </strong>;<br>
 * Dê um <strong> pm2 start index.js</strong>;<br>
