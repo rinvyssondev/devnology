@@ -45,9 +45,9 @@
 <br>
 <h4>
 * Crie uma instância EC2 e entre na máquina; <br>
-* Dentro da máquina faça a instalação do <strong>Nodejs</strong> e do <strong>MySQL</strong> <br> ;
-* Abra o MySQL e crie um Schema chamado  <strong>"devnology" (sem aspas) </strong> ; <br>
+* Dentro da máquina faça a instalação do <strong>Nodejs</strong> e do <strong>MySQL</strong> ; <br>
+* Faça o login no MySQL e crie um Schema (CREATE DATABASES devnology;) chamado  <strong>"devnology" (sem aspas) </strong> ; <br>
 * Dê um <strong> " git clone <em>https://github.com/rinvyssondev/devnology "</em> </strong>; <br>
-* Entre na pasta <em>devnology/</em> e dê um <strong>npm install </strong>;<br>
-* Dê um <strong> pm2 start index.js .</strong><br>
-* Logo após todos os procedimentos acima, o projeto estará no ar em <em>http://54.89.224.76:8080/articles</em> no meu caso. http://<strong>IP DA MAQUINA</strong>:<strong>PORTA</strong>/articles
+* Entre na pasta <em>devnology</em> e dê um <strong>npm install </strong>;<br>
+* Dê um <strong> pm2 start index.js</strong>;<br>
+* Logo após todos os procedimentos acima, o projeto estará no ar em <em>http://54.89.224.76:8080/articles</em> no meu caso. "http://<strong>IP DA MAQUINA</strong>:<strong>PORTA</strong>/articles"
