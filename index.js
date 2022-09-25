@@ -30,6 +30,7 @@ connection
 app.use("/", ArticlesController);
 
 // Conexão da app
-app.listen(8080, "localhost", () => {
+const port = process.env.port || 8080;
+app.listen(port, "0.0.0.0", () => {
   console.log("servidor no ar");
 });
