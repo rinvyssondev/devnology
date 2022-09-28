@@ -48,6 +48,7 @@
 * Dentro da máquina faça a instalação do <strong>Nodejs</strong> e do <strong>MySQL</strong> ; <br>
 * Faça o login no MySQL e crie um Schema (CREATE DATABASE devnology;) chamado  <strong>"devnology" (sem aspas) </strong> ; <br>
 * Dê um <strong> " git clone <em>https://github.com/rinvyssondev/devnology "</em> </strong>; <br>
+* Abra o projeto e vá até o arquivo <strong>database/connection.js</strong> e edite as informações das váriaveis <strong>usuário</strong> e <strong>senha</strong> e coloque de acordo com o que você criou no processo de instalação do MySQL; <br>
 * Entre na pasta <em>devnology</em> e dê um <strong>npm install </strong>;<br>
 * Dê um <strong> pm2 start index.js</strong>;<br>
 * Logo após todos os procedimentos acima, o projeto estará no ar em <em>http://54.89.224.76:8080/articles</em> no meu caso. "http://<strong>IP DA MAQUINA</strong>:<strong>PORTA</strong>/articles"
